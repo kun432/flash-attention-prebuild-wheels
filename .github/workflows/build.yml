@@ -42,7 +42,7 @@ jobs:
   build_wheels:
     name: Build wheels and Upload
     needs: create_releases
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     strategy:
       fail-fast: false
       matrix:
